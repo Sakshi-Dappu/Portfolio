@@ -1,0 +1,136 @@
+@import "../../vars.css";
+
+.ProjectImg {
+  height: 20rem;
+  width: 33rem;
+  border-radius: 2px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.card {
+  color: var(--color-text);
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  right: 20%;
+}
+.Title {
+  font-size: 40px;
+  color: var(--color-text);
+  font-family: var(--robotos);
+  margin-left: 10%;
+}
+
+.ProjectCard {
+  border: 6px solid white;
+  border-radius: 2%;
+  margin-top: 5%;
+  height: 38rem;
+  width: 35rem;
+  color: var(--color-text);
+  margin-left: 5%;
+  padding: 1rem;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+}
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background-color: rgba(25, 55, 109, 0.7); /* Corrected the color format */
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7); /* Corrected the color format */
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.DemoBtn {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  margin-right: 1rem;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 830px) {
+  .ProjectImg {
+    height: 10rem;
+    width: 19rem;
+    border-radius: 2px;
+    /* padding: 2px, 2px, 0, 2px; */
+  }
+
+  .card {
+    color: var(--color-text);
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    right: 20%;
+  }
+  .Title {
+    font-size: 40px;
+    color: var(--color-text);
+    font-family: var(--robotos);
+    margin-left: 10%;
+  }
+
+  .ProjectCard {
+    border: 6px solid white;
+    border-radius: 2%;
+    margin-top: 5%;
+    height: 26rem;
+    width: 25rem;
+    color: var(--color-text);
+    margin-left: 5%;
+    padding: 1rem;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 15px);
+    }
+    100% {
+      transform: translate(0, 0px);
+    }
+  }
+
+  .DemoBtn {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    margin-right: 1rem;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+}

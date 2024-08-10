@@ -8,15 +8,28 @@
   font-weight: 600;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.Title {
+  font-size: 40px;
+  font-family: var(--font-robot);
+  color: var(--color-text);
+  margin-right: 80%;
+}
+
 .container {
-    margin-top: 5%;
+  margin-top: 5%;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
+  background-color: rgba(12, 12, 12, 0.6);
+
+  border-radius: 2rem;
+  padding: 2rem;
 }
 img {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .skill {
   margin: 3rem;
@@ -29,22 +42,19 @@ img {
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
- 
 }
-
-
-
-
 
 @keyframes floating {
-    0% { transform: translate(0, 0px);}
-    50% { transform: translate(0, 15px);}
-    100% { transform: translate(0, -0px);}
-
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
-
-
-
 
 @media screen and (max-width: 830px) {
   .skills {
@@ -60,6 +70,5 @@ img {
     width: 7rem;
     padding: 1rem;
     background-color: var(--color-secondary);
-
   }
 }

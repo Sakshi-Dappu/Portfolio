@@ -3,7 +3,7 @@ import styles from "./Skills.module.css";
 export const Skills = () => {
   return (
     <section className={styles.container}>
-      <p className={styles.skills}>Skills</p>
+      <h1 className={styles.Title}>Skills</h1>
 
       <div className={styles.skills}>
         <br />
@@ -25,6 +25,11 @@ export const Skills = () => {
           MongoDB
         </div>
         <div className={styles.skill}>
+          <img src={getImageUrl("skills/Express.png")} alt="Node" />
+          <br />
+          Express.js
+        </div>
+        <div className={styles.skill}>
           <img src={getImageUrl("skills/node.png")} alt="Node" />
           <br />
           Node.js
@@ -34,6 +39,13 @@ export const Skills = () => {
           <br />
           React.js
         </div>
+        <div className={styles.skill}>
+          <img src={getImageUrl("skills/GitHub.png")} alt="React" />
+          <br />
+          React.js
+        </div>
+        
+        
       </div>
       <br />
       <br />
