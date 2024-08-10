@@ -1,12 +1,9 @@
 import React from "react";
 import styles from "./Hero.module.css";
 
-import { getImageUrl } from "../../../utils";
 export const Hero = () => {
   return (
-
     <section className={styles.container}>
-
       <div className={styles.content}>
         <h1 className={styles.title}>I'm Sakshi Dappu</h1>
         <p className={styles.description}>
@@ -21,5 +18,3 @@ export const Hero = () => {
     </section>
   );
 };
-
-
