@@ -1,0 +1,65 @@
+@import "../../vars.css";
+.skills {
+  color: var(--color-text);
+  font-family: var(--font-robot);
+  margin-left: 2rem;
+
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+}
+.container {
+    margin-top: 5%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+img {
+    margin-bottom: 2rem;
+}
+.skill {
+  margin: 3rem;
+  height: 7rem;
+  width: 7rem;
+  padding: 1rem;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+ 
+}
+
+
+
+
+
+@keyframes floating {
+    0% { transform: translate(0, 0px);}
+    50% { transform: translate(0, 15px);}
+    100% { transform: translate(0, -0px);}
+
+}
+
+
+
+
+@media screen and (max-width: 830px) {
+  .skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .skill {
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    padding: 1rem;
+    background-color: var(--color-secondary);
+
+  }
+}
