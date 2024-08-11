@@ -28,7 +28,7 @@ export const About = () => {
           <li className={styles.About_Items}>
             <p>
               <h1 className={styles.title}>Backend Technologies</h1>
-              "Proficient in Node.js, Express.js, and MongoDB for building
+              "Proficient in Node.js, Express.js, for building
               robust backend systems."
             </p>
           </li>
@@ -40,8 +40,7 @@ export const About = () => {
               <h1 className={styles.title}>DataBase</h1>
               I’m skilled in the basics of SQL and MongoDB, managing data
               efficiently with both relational and non-relational databases. I
-              enjoy working with queries, updates, and filters, always eager to
-              learn more.
+              enjoy working with queries, updates, and filters.
             </p>
           </li>
         </ul>
