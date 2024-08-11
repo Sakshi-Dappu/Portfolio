@@ -2,7 +2,7 @@ import { getImageUrl } from "../../utils";
 import styles from "./Skills.module.css";
 export const Skills = () => {
   return (
-    <section className={styles.container}>
+    <section id="skills" className={styles.container}>
       <h1 className={styles.Title}>Skills</h1>
 
       <div className={styles.skills}>
@@ -42,7 +42,7 @@ export const Skills = () => {
         <div className={styles.skill}>
           <img src={getImageUrl("skills/GitHub.png")} alt="React" />
           <br />
-          React.js
+         GitHub
         </div>
         
         

@@ -3,7 +3,9 @@ import styles from "../Footer/Footer.module.css";
 
 export const Footer = () => {
   return (
-    <footer className={styles.footer_container}>
+    <section id="contact">  
+
+<footer className={styles.footer_container}>
       <div className={styles.first_div}>
         <h3>Contact</h3>
          <p>Feel free to reach out!</p>
@@ -31,5 +33,7 @@ export const Footer = () => {
         </ul>
       </div>
     </footer>
+    </section>
+   
   );
 };

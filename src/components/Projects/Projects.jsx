@@ -3,7 +3,7 @@ import { getImageUrl } from "../../utils";
 
 export const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <p className={styles.Title}>Projects</p>
       <div className={styles.card}>
         <div className={styles.ProjectCard}>
@@ -14,12 +14,12 @@ export const Projects = () => {
             alt="CampusConnect"
           />
           <br />
-          <br />
+        
           Your gateway to campus life—connect with events, clubs, and community
           updates to enhance your student experience.
           <br />
           <br />
-          <br />
+          <br /> 
           <a
             href="https://campusconnect-uzcy.onrender.com/Listings"
             className={styles.DemoBtn}

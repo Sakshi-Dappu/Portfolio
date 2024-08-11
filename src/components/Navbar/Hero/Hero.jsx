@@ -7,7 +7,9 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>I'm Sakshi Dappu</h1>
         <p className={styles.description}>
-          I have worked on MERN Stack. Currently, pursuing B.Tech in AI & DS.
+          Aspiring Full Stack Developer with MERN stack expertise, seeking an
+          internship. Quick learner, adaptable, and
+          eager to contribute to innovative projects.
         </p>
         <a href="mailto:dappusakshi@email.com" className={styles.contactBtn}>
           Contact Me
