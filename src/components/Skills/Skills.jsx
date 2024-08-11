@@ -44,7 +44,11 @@ export const Skills = () => {
           <br />
          GitHub
         </div>
-        
+        <div className={styles.skill}>
+          <img src={getImageUrl("skills/bootstrap.png")} alt="React" />
+          <br />
+         Bootstrap
+        </div>
         
       </div>
       <br />

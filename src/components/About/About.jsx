@@ -16,7 +16,7 @@ export const About = () => {
           <li className={styles.About_Items}>
             <div>
               <p>
-                <h1 className={styles.title}> Frontend Technologies</h1>
+                <h1 className={styles.title}> Frontend </h1>
                 "Skilled in HTML5, CSS, and JavaScript, React.js, Bootstrap
                 crafting responsive and dynamic web applications."
               </p>
@@ -27,7 +27,7 @@ export const About = () => {
 
           <li className={styles.About_Items}>
             <p>
-              <h1 className={styles.title}>Backend Technologies</h1>
+              <h1 className={styles.title}>Backend</h1>
               "Proficient in Node.js, Express.js, for building
               robust backend systems."
             </p>
@@ -39,8 +39,7 @@ export const About = () => {
             <p>
               <h1 className={styles.title}>DataBase</h1>
               I’m skilled in the basics of SQL and MongoDB, managing data
-              efficiently with both relational and non-relational databases. I
-              enjoy working with queries, updates, and filters.
+              efficiently with both relational and non-relational databases.
             </p>
           </li>
         </ul>

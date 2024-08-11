@@ -14,12 +14,11 @@ export const Projects = () => {
             alt="CampusConnect"
           />
           <br />
-        
           Your gateway to campus life—connect with events, clubs, and community
           updates to enhance your student experience.
           <br />
           <br />
-          <br /> 
+          <br />
           <a
             href="https://campusconnect-uzcy.onrender.com/Listings"
             className={styles.DemoBtn}
@@ -33,7 +32,7 @@ export const Projects = () => {
             Source
           </a>
         </div>
-       
+
         <div className={styles.ProjectCard}>
           <b className={styles.Title}>SIMON says </b> <br />
           <img
@@ -61,7 +60,33 @@ export const Projects = () => {
             Source
           </a>
         </div>
-        
+<br />
+        <div className={styles.ProjectCard}>
+          <b className={styles.Title}>CraftedBySakshi </b> <br />
+          <img
+            src={getImageUrl("projects/Portfolio.png")}
+            className={styles.ProjectImg}
+            alt="Simon Say"
+          />
+          <br />
+          <br />
+          Check out my Portfolio Website.
+          <br />
+          <br />
+          <br />
+          <a
+            href="https://craftedbysakshi.netlify.app/"
+            className={styles.DemoBtn}
+          >
+            Demo
+          </a>
+          <a
+            href="https://github.com/Sakshi-Dappu/Portfolio"
+            className={styles.DemoBtn}
+          >
+            Source
+          </a>
+        </div>
       </div>
       <div className={styles.topBlur}></div>
       <div className={styles.bottomBlur}></div>

@@ -9,8 +9,7 @@ export const Hero = () => {
         <p className={styles.description}>
           Hi, I’m Sakshi Dappu! I’m excited to share my Web Development projects
           through this portfolio. Here, you’ll find a blend of my technical
-          skills, creative projects, and a glimpse into my passion for coding
-          and design.
+          skills, creative projects, and a glimpse into my passion for coding.
         </p>
         <a href="mailto:dappusakshi@email.com" className={styles.contactBtn}>
           Contact Me
