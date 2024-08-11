@@ -17,7 +17,7 @@ export const About = () => {
             <div>
               <p>
                 <h1 className={styles.title}> Frontend Technologies</h1>
-                "Skilled in Bootstrap, Tailwind, HTML5, CSS, and JavaScript,
+                "Skilled in HTML5, CSS, and JavaScript, React.js, Bootstrap
                 crafting responsive and dynamic web applications."
               </p>
             </div>
