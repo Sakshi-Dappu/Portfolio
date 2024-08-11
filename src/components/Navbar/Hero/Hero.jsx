@@ -7,9 +7,10 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>I'm Sakshi Dappu</h1>
         <p className={styles.description}>
-          Aspiring Full Stack Developer with MERN stack expertise, seeking an
-          internship. Quick learner, adaptable, and
-          eager to contribute to innovative projects.
+          Hi, I’m Sakshi Dappu! I’m excited to share my Web Development projects
+          through this portfolio. Here, you’ll find a blend of my technical
+          skills, creative projects, and a glimpse into my passion for coding
+          and design.
         </p>
         <a href="mailto:dappusakshi@email.com" className={styles.contactBtn}>
           Contact Me
